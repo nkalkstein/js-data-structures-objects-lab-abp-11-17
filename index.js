@@ -11,7 +11,7 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
-  
+
   driver['address'] = '12 Broadway';
 
   return driver;
@@ -25,7 +25,7 @@ function deleteFromDriverByKey(driver, key) {
   return newName;
 }
 
-function destructivelyDeleteFromdriverByKey(driver, key) {
+function destructivelyDeleteFromDriverByKey(driver, key) {
 
   delete driver.name;
 
