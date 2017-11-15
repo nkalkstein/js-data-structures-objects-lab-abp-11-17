@@ -7,7 +7,7 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 
   newDriver['address'] = '11 Broadway';
 
-  return newDriver
+  return newDriver;
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
@@ -16,10 +16,4 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
   return driver;
 }
 
-function deleteFromDriverByKey(driver, key) {
-  const newName = (...driver);
 
-  newName[name] = 'Bob';
-
-  return newName
-}
