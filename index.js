@@ -1,11 +1,11 @@
 driver = {
-  speed: 'fast'
+  name: 'Sam';
 }
 
 function updateDriverWithKeyAndValue(driver, key, value) {
   const newDriver = {...driver}
 
-  newDriver[speed] = slow;
+  newDriver[address] = '11 Broadway';
 
   return newDriver
 }
