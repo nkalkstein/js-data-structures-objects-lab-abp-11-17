@@ -1,5 +1,5 @@
 driver = {
-  name: 'Sam';
+  name: 'Sam'
 }
 
 function updateDriverWithKeyAndValue(driver, key, value) {
